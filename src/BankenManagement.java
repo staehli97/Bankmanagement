@@ -3,6 +3,6 @@
  */
 public class BankenManagement {
     public static void main(String[] args) {
-        System.out.println("Anu cha nüt");
+
     }
 }
