@@ -6,6 +6,8 @@ public class Kaufmann extends Person {
         super(name, vorname);
     }
 
+
+
     /*public Kaufmann() {
         super(bankkonto);
     }*/
