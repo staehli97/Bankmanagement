@@ -1,10 +1,11 @@
 /**
  * Created by vmadmin on 24.02.2017.
  */
-public class Bankkonto {
+public class Bankkonto implements IBankkonto {
     private String kontoBezeichnung;
     private int kontoNr;
     private int maxAusz;
+    private int passwort;
 
     public String getKontoBezeichnung() {
         return kontoBezeichnung;
@@ -36,4 +37,28 @@ public class Bankkonto {
         this.maxAusz = maxAusz;
     }
 
+    @Override
+    public void GetSaldo() {
+
+    }
+
+    @Override
+    public void SetSaldo() {
+
+    }
+
+    @Override
+    public void ShowSaldo() {
+
+    }
+
+    @Override
+    public void OpenAccount() {
+
+    }
+
+    @Override
+    public void CloseAccount() {
+
+    }
 }

@@ -10,6 +10,7 @@ public class frameGui {
         guiFrame.setSize(500,500);
 
         guiFrame.add(new JLabel("Mein Beispiel JLABEL"));
+        guiFrame.add(new JButton("einloggen"));
         guiFrame.setVisible(true);
     }
 }

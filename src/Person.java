@@ -10,7 +10,15 @@ public class Person {
 
     private String name;
     private String vorname;
+    private double lohn;
 
+    public double getLohn() {
+        return lohn;
+    }
+
+    public void setLohn(double lohn) {
+        this.lohn = lohn;
+    }
 
     public String getName() {
         return name;
@@ -29,9 +37,9 @@ public class Person {
     }
 
 
-    public Person(String name, String vorname) {
+    public Person(String name, String vorname, double lohn) {
         this.name = name;
         this.vorname = vorname;
-
+        this.lohn = lohn;
     }
 }
