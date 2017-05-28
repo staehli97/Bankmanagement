@@ -1,13 +1,12 @@
-
-import javaapplication.UBS_Konto;
+package javaapplication;
 
 /**
  * Created by vmadmin on 24.02.2017.
  */
 public class Kaufmann extends Person {
-    
+
     private UBS_Konto ubk1;
-    private double vermögen;
+    private double    vermögen;
     
     
 

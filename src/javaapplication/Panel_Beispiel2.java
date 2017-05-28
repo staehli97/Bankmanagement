@@ -6,7 +6,6 @@
 package javaapplication;
 
 /**
- *
  * @author vmadmin
  */
 public class Panel_Beispiel2 extends javax.swing.JPanel {
@@ -34,21 +33,20 @@ public class Panel_Beispiel2 extends javax.swing.JPanel {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(147, 147, 147)
-                .addComponent(jButton1)
-                .addContainerGap(180, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addGap(147, 147, 147)
+                                      .addComponent(jButton1)
+                                      .addContainerGap(180, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(119, 119, 119)
-                .addComponent(jButton1)
-                .addContainerGap(158, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addGap(119, 119, 119)
+                                      .addComponent(jButton1)
+                                      .addContainerGap(158, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

@@ -1,11 +1,13 @@
+package javaapplication;
+
 /**
  * Created by vmadmin on 24.02.2017.
  */
 public class Bankkonto implements IBankkonto {
     private String kontoBezeichnung;
-    private int kontoNr;
-    private int maxAusz;
-    private int passwort;
+    private int    kontoNr;
+    private int    maxAusz;
+    private int    passwort;
 
     public String getKontoBezeichnung() {
         return kontoBezeichnung;
@@ -39,8 +41,6 @@ public class Bankkonto implements IBankkonto {
 
     @Override
     public void GetSaldo() {
-        
-        
 
     }
 

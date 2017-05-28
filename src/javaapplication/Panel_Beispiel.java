@@ -6,7 +6,6 @@
 package javaapplication;
 
 /**
- *
  * @author vmadmin
  */
 public class Panel_Beispiel extends javax.swing.JPanel {
@@ -56,44 +55,43 @@ public class Panel_Beispiel extends javax.swing.JPanel {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(113, 113, 113)
-                        .addComponent(jLabel4)))
-                .addContainerGap(127, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                      .addGroup(layout.createSequentialGroup()
+                                                                      .addContainerGap()
+                                                                      .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                                      .addComponent(jLabel1)
+                                                                                      .addComponent(jLabel2)
+                                                                                      .addComponent(jLabel3)))
+                                                      .addGroup(layout.createSequentialGroup()
+                                                                      .addGap(113, 113, 113)
+                                                                      .addComponent(jLabel4)))
+                                      .addContainerGap(127, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addComponent(jLabel4)
-                .addGap(27, 27, 27)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel3)
-                .addContainerGap(146, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addGap(27, 27, 27)
+                                      .addComponent(jLabel4)
+                                      .addGap(27, 27, 27)
+                                      .addComponent(jLabel1)
+                                      .addGap(18, 18, 18)
+                                      .addComponent(jLabel2)
+                                      .addGap(18, 18, 18)
+                                      .addComponent(jLabel3)
+                                      .addContainerGap(146, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
+    private javax.swing.JButton  jButton1;
+    private javax.swing.JLabel   jLabel1;
+    private javax.swing.JLabel   jLabel2;
+    private javax.swing.JLabel   jLabel3;
+    private javax.swing.JLabel   jLabel4;
+    private javax.swing.JMenu    jMenu1;
+    private javax.swing.JMenu    jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     // End of variables declaration//GEN-END:variables
 }

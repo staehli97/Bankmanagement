@@ -6,7 +6,6 @@
 package javaapplication;
 
 /**
- *
  * @author vmadmin
  */
 public class GUI_Main extends javax.swing.JFrame {
@@ -65,9 +64,9 @@ public class GUI_Main extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 Panel_Beispiel b1 = new Panel_Beispiel();
-                
+
                 new GUI_Main().setVisible(true);
-                
+
             }
         });
     }

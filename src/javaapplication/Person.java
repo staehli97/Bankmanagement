@@ -1,3 +1,5 @@
+package javaapplication;
+
 /**
  * Created by vmadmin on 24.02.2017.
  */
@@ -35,7 +37,6 @@ public class Person {
     public void setVorname(String vorname) {
         this.vorname = vorname;
     }
-
 
     public Person(String name, String vorname, double lohn) {
         this.name = name;

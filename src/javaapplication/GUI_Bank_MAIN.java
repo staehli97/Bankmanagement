@@ -6,19 +6,16 @@
 package javaapplication;
 
 /**
- *
  * @author vmadmin
  */
 public class GUI_Bank_MAIN extends javax.swing.JFrame {
 
-    
     public GUI_Bank_MAIN() {
         setFocusable(true);
-        
+
         initComponents();
-        
+
     }
-    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -37,34 +34,34 @@ public class GUI_Bank_MAIN extends javax.swing.JFrame {
         javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
         jFrame1.getContentPane().setLayout(jFrame1Layout);
         jFrame1Layout.setHorizontalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+                jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 400, Short.MAX_VALUE)
         );
         jFrame1Layout.setVerticalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+                jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 300, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jFrame2Layout = new javax.swing.GroupLayout(jFrame2.getContentPane());
         jFrame2.getContentPane().setLayout(jFrame2Layout);
         jFrame2Layout.setHorizontalGroup(
-            jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+                jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 400, Short.MAX_VALUE)
         );
         jFrame2Layout.setVerticalGroup(
-            jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+                jFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 300, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout jFrame3Layout = new javax.swing.GroupLayout(jFrame3.getContentPane());
         jFrame3.getContentPane().setLayout(jFrame3Layout);
         jFrame3Layout.setHorizontalGroup(
-            jFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+                jFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 400, Short.MAX_VALUE)
         );
         jFrame3Layout.setVerticalGroup(
-            jFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+                jFrame3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                             .addGap(0, 300, Short.MAX_VALUE)
         );
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -73,29 +70,29 @@ public class GUI_Bank_MAIN extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(145, 145, 145)
-                .addComponent(jLabel1)
-                .addContainerGap(151, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addGap(145, 145, 145)
+                                      .addComponent(jLabel1)
+                                      .addContainerGap(151, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(258, Short.MAX_VALUE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                      .addGroup(layout.createSequentialGroup()
+                                      .addContainerGap()
+                                      .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                      .addContainerGap(258, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFrame jFrame1;
     private javax.swing.JFrame jFrame2;
     private javax.swing.JFrame jFrame3;
     private javax.swing.JLabel jLabel1;
+
     // End of variables declaration//GEN-END:variables
-public static void main(String args[]) {
+    public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -126,6 +123,5 @@ public static void main(String args[]) {
             }
         });
     }
-           
 
 }
