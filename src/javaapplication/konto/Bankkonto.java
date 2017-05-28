@@ -1,9 +1,10 @@
-package javaapplication;
+package javaapplication.konto;
 
 /**
  * Created by vmadmin on 24.02.2017.
  */
-public interface IBankkonto {
+public interface Bankkonto {
+
     void GetSaldo();
 
     void SetSaldo();

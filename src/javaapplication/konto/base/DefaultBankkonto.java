@@ -1,13 +1,16 @@
-package javaapplication;
+package javaapplication.konto.base;
+
+import javaapplication.konto.Bankkonto;
 
 /**
  * Created by vmadmin on 24.02.2017.
  */
-public class Bankkonto implements IBankkonto {
+public class DefaultBankkonto implements Bankkonto {
+
     private String kontoBezeichnung;
-    private int    kontoNr;
-    private int    maxAusz;
-    private int    passwort;
+    private int kontoNr;
+    private int maxAusz;
+    private int passwort;
 
     public String getKontoBezeichnung() {
         return kontoBezeichnung;
@@ -33,7 +36,7 @@ public class Bankkonto implements IBankkonto {
         this.maxAusz = maxAusz;
     }
 
-    public Bankkonto(String kontoBezeichnung, int kontoNr, int maxAusz) {
+    public DefaultBankkonto(String kontoBezeichnung, int kontoNr, int maxAusz) {
         this.kontoBezeichnung = kontoBezeichnung;
         this.kontoNr = kontoNr;
         this.maxAusz = maxAusz;

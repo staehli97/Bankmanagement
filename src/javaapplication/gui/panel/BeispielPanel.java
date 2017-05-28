@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication;
+package javaapplication.gui.panel;
 
 /**
  * @author vmadmin
  */
-public class Panel_Beispiel2 extends javax.swing.JPanel {
+public class BeispielPanel extends javax.swing.JPanel {
 
     /**
      * Creates new form Panel_Beispiel2
      */
-    public Panel_Beispiel2() {
+    public BeispielPanel() {
         initComponents();
     }
 
@@ -33,18 +33,18 @@ public class Panel_Beispiel2 extends javax.swing.JPanel {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                      .addGroup(layout.createSequentialGroup()
-                                      .addGap(147, 147, 147)
-                                      .addComponent(jButton1)
-                                      .addContainerGap(180, Short.MAX_VALUE))
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(147, 147, 147)
+                .addComponent(jButton1)
+                .addContainerGap(180, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                      .addGroup(layout.createSequentialGroup()
-                                      .addGap(119, 119, 119)
-                                      .addComponent(jButton1)
-                                      .addContainerGap(158, Short.MAX_VALUE))
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(119, 119, 119)
+                .addComponent(jButton1)
+                .addContainerGap(158, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
